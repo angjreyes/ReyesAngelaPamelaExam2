@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEA9B8"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="354dp"
+        android:layout_height="155dp"
+        app:cardBackgroundColor="#B9B0AE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/btext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="13dp"
+            android:text="Jennie Kim" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/itext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="30dp"
+            android:text="Main Rapper, Vocalist" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="62dp"
+            android:text='Jennie lived in Auckland, New Zealand for 5 years. (“Knowing Brother”). She studied in New Zealand at ACG Parnell College. One of her nicknames is “Human Gucci” due to the fact that she often wears expensive clothing from Gucci. Jennie’s Chinese zodiac sign is Pig.'
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="630dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/j"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="359dp"
+        android:layout_height="155dp"
+        app:cardBackgroundColor="#B9B0AE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.436">
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/btext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="13dp"
+            android:text="Park Ji-hyo" />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/itext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="30dp"
+            android:text="Twice Leader" />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="65dp"
+            android:text="She is the leader and main vocalist of the group. She officially joined the company on July 15, 2005, and was a trainee for over 10 years. Jihyo was known mostly pre-debut as the face of Innisfree's teen line with boy band Boyfriend and later with future group mate Nayeon."
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="90dp"
+            android:layout_marginLeft="285dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/ji" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="359dp"
+        android:layout_height="158dp"
+        app:cardBackgroundColor="#B9B0AE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="86dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="125dp"
+            android:layout_marginLeft="285dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/u" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/btext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="13dp"
+            android:text="Kim Ye Won" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/itext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="30dp"
+            android:text="GFriend Member" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="68dp"
+            android:text="Umji is born into a rich family. Umji’s father is the CEO of a famous dentist group called Moa Dentist Group. The CEO of Source Music saw her walking on the street and invited her to make an audition. Umji and Yerin have the same birth date, but different year.Umji and Yuju are the English speakers of the group."
+            android:textSize="12sp" />
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="process"
+        android:text="NEXT"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="process"
+        android:text="MAP"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+</android.support.constraint.ConstraintLayout>
